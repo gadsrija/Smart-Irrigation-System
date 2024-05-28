@@ -1,0 +1,1 @@
+[{"id":"9bc8a54b.d0c1d8","type":"function","z":"e7824b32.6db4b8","name":"","func":"msg.payload={\"temperature\":global.get('temperature'),\"humidity\":global.get('humidity'),\"moisture\":global.get('moisture')}\nreturn msg;\n","outputs":1,"noerr":0,"x":500,"y":780,"wires":[["952fdd4c.f06b7"]]}]
